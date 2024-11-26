@@ -1,0 +1,52 @@
+{
+  "transportadoras": [
+    {
+      "id": "1",
+      "nome": "Transportadora A",
+      "cnpj": "12345678000199",
+      "status": 1
+    },
+    {
+      "id": "2",
+      "nome": "Transportadora B",
+      "cnpj": "98765432000188",
+      "status": 1
+    },
+    {
+      "id": "b630",
+      "nome": "Transportadora C",
+      "cnpj": "12345678000195",
+      "endereco": "rua da barca velha"
+    }
+  ],
+  "motoristas": [
+    {
+      "id": "1",
+      "nome": "João Silva",
+      "cpf": "12345678901",
+      "data_nascimento": "1980-01-01",
+      "email": "joao@email.com"
+    }
+  ],
+  "caminhoes": [
+    {
+      "id": "1",
+      "placa": "ABC1234",
+      "modelo": "Modelo X",
+      "cor": "Vermelho",
+      "motorista_id": 1
+    }
+  ],
+  "modelos": [
+    {
+      "id": "1",
+      "modelo": "Modelo X",
+      "cor": "Vermelho"
+    },
+    {
+      "id": "2",
+      "modelo": "Modelo Y",
+      "cor": "Azul"
+    }
+  ]
+}
